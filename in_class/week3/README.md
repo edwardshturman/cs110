@@ -18,7 +18,7 @@ discounted_price = original_price * (60 / 100)
 print('The discounted price is: $' + str(discounted_price))
 ```
 
-![part1.png](in-class_exercise_2_assets/part1.png)
+![part1.png](assets/e2-part1.png)
 
 ### Part 2: Converting Celsius to Fahrenheit
 
@@ -35,7 +35,7 @@ temp_fahrenheit = (9 / 5) * temp_celsius + 32
 print('Temperature in Fahrenheit is: ' + format(temp_fahrenheit, '.2f') + '°F')
 ```
 
-![part2.png](in-class_exercise_2_assets/part2.png)
+![part2.png](assets/e2-part2.png)
 
 ### Part 3: Calculating percentage of CS majors vs. non-CS majors
 
@@ -55,7 +55,7 @@ non_cs_majors_percentage = non_cs_majors / total_students * 100
 print(format(cs_majors_percentage, '.2f') + '% of the class is composed of CS majors, while ' + format(non_cs_majors_percentage, '.2f') + '% of students in the class are not CS majors.')
 ```
 
-![part3.png](in-class_exercise_2_assets/part3.png)
+![part3.png](assets/e2-part3.png)
 
 ### Extra Credit: Vineyards
 
@@ -99,7 +99,7 @@ grapevines = format(row_length - (2 * end_post_space) / vine_room, '.2f')
 print('The number of grapevines that will fit in a row:', grapevines)
 ```
 
-![ec.png](in-class_exercise_2_assets/ec.png)
+![ec.png](assets/e2-ec.png)
 
 ## In-Class Exercise 3
 
@@ -118,7 +118,7 @@ if pizza_preference > taco_preference:
     print('You like pizza more than tacos.')
 ```
 
-![part1.png](in-class_exercise_3_assets/part1.png)
+![part1.png](assets/e3-part1.png)
 
 ### Part 2: Sorting names by ASCII value
 
@@ -135,7 +135,7 @@ else:
     print('Error in calculation.')
 ```
 
-![part2.png](in-class_exercise_3_assets/part2.png)
+![part2.png](assets/e3-part2.png)
 
 ### Part 3: Age comparison
 
@@ -152,4 +152,4 @@ else:
     print('Error in calculation.')
 ```
 
-![part3.png](in-class_exercise_3_assets/part3.png)
+![part3.png](assets/e3-part3.png)
