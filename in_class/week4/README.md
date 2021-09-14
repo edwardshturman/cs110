@@ -1,6 +1,38 @@
-# In-Class Exercise 4
+# Week 4
+
+*September 14, 2021 — September 20, 2021*
+
+## In-Class Exercise 4
 
 ### Part 1: Converting currency
+
+Write a program `convert_money.py` that prompts the user like this:
+
+> ```text
+> Currency to convert to U.S. Dollars:
+>
+> 
+> e = Euros
+> 
+> c = Chinese Yuan
+> 
+> r = Indian Rupees
+> 
+> b = Bitcoin
+> ```
+
+Then depending on which letter the user enters, the program displays `'Amount of Euros/Yuan/Rupees/Bitcoin to convert: '`.
+
+(Note: the second prompt should only name the **one** currency the user asked to convert, not all four currencies.)
+
+After the user enters the amount, the program displays the amount converted to U.S. Dollars to 2 decimal places, e.g. `'In U.S. dollars, that is $24.83'`.
+
+Conversion rates (from Google, Aug 6, 2018):
+
+- 1 Euro = 1.16 U.S. Dollars
+- 1 Chinese Yuan = 0.15 U.S. Dollars
+- 1 Indian Rupee = 0.015 U.S. Dollars
+- 1 Bitcoin = 6923.80 U.S. Dollars
 
 ```python
 currency_to_convert = input('Currency to convert to U.S. dollars:\n\'e\' = Euros\n\'c\' = Chinese Yuan\n\'r\' = '
@@ -25,6 +57,14 @@ else:
 
 ### Part 2: Determining the state of water based on its temperature
 
+Write a program `water.py` that asks for temperature in Fahrenheit. The program should accept any floating point number. Display whether water is liquid, solid, or gas at that temperature at sea level. Display the results like this: `'Water at that temperature is a solid/liquid/gas.'`
+
+(Note: display only the correct state for that temperature.)
+
+Facts: At sea level, water freezes at 32 degrees F and boils at 212 degrees F.
+
+Extra credit: 1 point if you convert the temperatures to celsius when printing.
+
 ```python
 temperature_f = int(input('What is the temperature? '))
 temperature_c = int((temperature_f - 32) * 5/9)
@@ -39,6 +79,15 @@ else:
 ![part2.png](assets/part2.png)
 
 ### Part 3: Classifying an individual's age
+
+Using logical operators, write a program `classify_age.py` that asks the user to enter a person's age. Then, the program should display text indicating whether the person is an infant, a toddler, a child, a teenager, an adult, or a senior. It should display it just like this: `'This person’s age category: x'`, where x is the person’s age category based on the following guidelines:
+
+- If less than 1 year old, the person is an infant.
+- If at least 1 year old but younger than 3, the person is a toddler.
+- If at least 3 years old but younger than 13, the person is a child.
+- If at least 13 years old but younger than 18, the person is a teenager.
+- If at least 18 years old but younger than 65, the person is an adult.
+- If 65 or older, the person is a senior.
 
 ```python
 age = float(input('What is the person\'s age? '))  # Normally would be type int but set to float to account for months
