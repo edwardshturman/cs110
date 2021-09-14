@@ -3,6 +3,19 @@ year = int(input('Input a year: '))
 month = int(input('Input a month [1-12]: '))
 day = int(input('Input a day [1-31]: '))
 
+# Leap year calculation
+leap = False  # Preset leap year value, all this does is remove IDE errors that say 'leap is not defined'
+if year % 4 == 0:  # Divisible by 4
+    if year % 100 == 0:  # Centurial year, not leap year by default
+        if year % 400 == 0:  # If the centurial year is divisible by 400, it's a leap year
+            leap = True
+        elif year % 400 != 0:
+            leap = False
+    elif year % 100 != 0:
+        leap = True
+elif year % 4 != 0:
+    leap = False
+
 # Set month length based on input
 month_length = 31  # Preset month length, all this does is remove IDE errors that say 'month_length is not defined'
 if month < 1 or month > 12:
@@ -10,7 +23,10 @@ if month < 1 or month > 12:
 elif month == 1:  # January
     month_length = 31
 elif month == 2:  # February
-    month_length = 28
+    if not leap:  # If it's a common year, February has 28 days
+        month_length = 28
+    elif leap:  # If it's a leap year, February has 29 days
+        month_length = 29
 elif month == 3:  # March
     month_length = 31
 elif month == 4:  # April
