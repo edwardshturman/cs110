@@ -53,7 +53,7 @@ else:
     print('You need to enter either \'e\', \'c\', \'r\', or \'b\'!')
 ```
 
-![part1.png](assets/part1.png)
+![part1.png](assets/e4-part1.png)
 
 ### Part 2: Determining the state of water based on its temperature
 
@@ -76,7 +76,7 @@ else:
     print('Water at temperature ' + str(temperature_c) + '°C is a liquid, as it has neither frozen nor evaporated.')
 ```
 
-![part2.png](assets/part2.png)
+![part2.png](assets/e4-part2.png)
 
 ### Part 3: Classifying an individual's age
 
@@ -105,4 +105,62 @@ elif age >= 65:
     print('This person\'s age category: Senior')
 ```
 
-![part3.png](assets/part3.png)
+![part3.png](assets/e4-part3.png)
+
+## In-Class Exercise 5
+
+### Part 1: Adding two
+
+Write a program `add_two.py` starting with `i = 1`, using a while loop to add `2` on each iteration of the loop until it reaches (including) `9`. Print the value of `i` on each iteration.
+
+(It is up to you whether you want to print `i` when it is equal to 1.)
+
+```python
+i = 1
+while i < 9:
+    print(i)
+    i+=2
+print (i)
+```
+
+![e5-part1.png](assets/e5-part1.png)
+
+### Part 2: Computing the sum of a range
+
+Write a program `sum_range.py`. This code should prompt the user for two integers: `a` and `b`, and compute the sum of all integers greater than or equal to `a`, and less than or equal to `b`. If `a` is not less than `b`, your program should print out an error message. I would definitely recommend making your program work without worrying about the error message first.
+
+```python
+a = int(input('Enter an integer for the lower limit: '))
+b = int(input('Enter an integer for the upper limit: '))
+
+if a >= b:
+    print('Error: ' + str(a) + ' > ' + str(b))
+
+elif a < b:
+
+    total = 0
+
+    for n in range(a, b + 1, 1):
+        total += n
+    print(total)
+```
+
+![e5-part2.png](assets/e5-part2.png)
+
+### Part 3: Calculating the factorial
+
+Write a program `factorial.py`. This code should prompt the user for a value, and then compute (and print out) the factorial of that value.
+
+Recall that `n! = n * (n-1) * (n-2) ... * 1`. `0!` is defined to be `1`.
+
+```python
+n = int(input('Enter a number: '))
+
+value = 1
+
+for num in range(n, 1, -1):
+    value *= num
+print(str(n) + '! = ' + str(value))
+```
+
+![e5-part3.png](assets/e5-part3.png)
