@@ -2,7 +2,7 @@
 
 *August 31, 2021 – September 6, 2021*
 
-## In-Class Exercise 1
+## 🐶 In-Class Exercise 1
 
 ### Part 1: Printing a user's name
 

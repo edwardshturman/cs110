@@ -2,7 +2,7 @@
 
 *September 14, 2021 — September 20, 2021*
 
-## In-Class Exercise 4
+## 💵 In-Class Exercise 4
 
 ### Part 1: Converting currency
 

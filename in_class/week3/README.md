@@ -2,7 +2,7 @@
 
 *September 7, 2021 – September 13, 2021*
 
-## In-Class Exercise 2
+## 🍇 In-Class Exercise 2
 
 ### Part 1: Printing sale price
 
@@ -101,7 +101,7 @@ print('The number of grapevines that will fit in a row:', grapevines)
 
 ![ec.png](assets/e2-ec.png)
 
-## In-Class Exercise 3
+## 🌮 In-Class Exercise 3
 
 ### Part 1: Pizza vs. taco preference
 

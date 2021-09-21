@@ -1,4 +1,4 @@
-# Lab 1
+# 🗓 Lab 1
 
 *September 14, 2021*
 
