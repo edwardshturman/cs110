@@ -31,7 +31,7 @@ for row in range(11, 1, -1):
 
 ### Part 2: Hashes nested loop
 
-Write a Python program **`tri_hash.py` that uses nested `for` loops to draw this pattern (10 columns long):
+Write a Python program `tri_hash.py` that uses nested `for` loops to draw this pattern (10 columns long):
 
 ```
 ##

@@ -6,7 +6,7 @@
 
 ### Part 1: Minimum and maximum values
 
-Write a Python program `minmax.py`. ****This code should keep taking input from the user until the user enters a `-1`. When the user enters a `-1`, display the minimum value and the maximum value entered by the user up to that point.
+Write a Python program `minmax.py`. This code should keep taking input from the user until the user enters a `-1`. When the user enters a `-1`, display the minimum value and the maximum value entered by the user up to that point.
 
 Do not use minimum or maximum built-in functions.
 
