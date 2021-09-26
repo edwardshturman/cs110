@@ -74,8 +74,10 @@ def even_or_odd():
     else:
         print('This is an odd number.')
 
+
 def main():
     even_or_odd()
+
 
 main()
 ```
@@ -97,9 +99,11 @@ def even_or_odd(n):
     else:
         print('This is an odd number.')
 
+
 def main():
     n = int(input('Enter a number: '))
     even_or_odd(n)
+
 
 main()
 ```
@@ -124,17 +128,21 @@ def add(num1, num2):
     result = num1 + num2
     print(str(num1) + ' + ' + str(num2) + ' = ' + str(result))
 
+
 def subtract(num1, num2):
     result = num1 - num2
     print(str(num1) + ' - ' + str(num2) + ' = ' + str(result))
+
 
 def multiply(num1, num2):
     result = num1 * num2
     print(str(num1) + ' * ' + str(num2) + ' = ' + str(result))
 
+
 def divide(num1, num2):
     result = num1 / num2
     print(str(num1) + ' / ' + str(num2) + ' = ' + str(result))
+
 
 def main():
     go_back = 'y'
@@ -164,6 +172,7 @@ def main():
         if operator == '/':
             divide(num1, num2)
             go_back = input('Would you like to go back? (Enter \'y\' or \'Y\'.) ')
+
 
 main()
 ```
