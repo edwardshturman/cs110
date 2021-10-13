@@ -43,6 +43,7 @@ The program should work as follows:
 # PLAYER_WINS
 # INVALID
 
+
 def main():
     tie = 1
     while tie == 1:
@@ -79,6 +80,7 @@ def main():
         elif result == 'INVALID':
             tie = 0  # Won't loop the game again
             print('You made an invalid choice. No winner.')
+
 
 def rock_paper_scissors(computer, player):
     if computer == 1:  # Computer chooses rock
@@ -124,6 +126,7 @@ def rock_paper_scissors(computer, player):
         result = 'INVALID'
         return result
 
+
 def choice_string(choice):
     if choice == 1:
         result = 'Rock'
@@ -137,6 +140,7 @@ def choice_string(choice):
     else:
         result = 'Something went wrong!'
         return result
+
 
 main()
 ```

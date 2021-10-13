@@ -37,6 +37,7 @@ Write a `main` function that calls the `playGuessingGame` method and keeps loopi
 ```python
 import random
 
+
 def play_guessing_game(number):
     guess = int(input('Enter a number between 1 and 20, or 0 to quit: '))
     if guess == 0:
@@ -51,6 +52,7 @@ def play_guessing_game(number):
         print('Congratulations, you guessed the right number!')
         return guess
 
+
 def main():
     number = random.randint(1, 20)
     guess = play_guessing_game(number)
@@ -61,6 +63,7 @@ def main():
             number = random.randint(1, 20)
             guess = play_guessing_game(number)
     print('Thanks for playing!')
+
 
 main()
 ```
