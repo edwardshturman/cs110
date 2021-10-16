@@ -1,6 +1,6 @@
 # Week 4
 
-*September 14, 2021 — September 20, 2021*
+*September 14, 2021 – September 20, 2021*
 
 ## 💵 In-Class Exercise 4
 

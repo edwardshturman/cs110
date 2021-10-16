@@ -1,6 +1,6 @@
 # Week 5
 
-*September 21, 2021 — September 27, 2021*
+*September 21, 2021 – September 27, 2021*
 
 ## In-Class Exercise 6
 
