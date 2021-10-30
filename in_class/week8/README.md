@@ -64,7 +64,7 @@ write_file.write('Minimum number of kids in a family: ' + str(smallest_number_of
 write_file.close()
 ```
 
-![part1.png](assets/part1.png)
+![part1.png](assets/e9-part1.png)
 
 ### Part 2: Random Number File Writer
 
@@ -84,4 +84,4 @@ for line in range(lines):
 write_file.close()
 ```
 
-![part2.png](assets/part2.png)
+![part2.png](assets/e9-part2.png)
