@@ -18,7 +18,7 @@ last_name = input('What is your last name? ')
 print(first_name, last_name)
 ```
 
-![part1.png](assets/part1.png)
+![part1.png](assets/e1-part1.png)
 
 ### Part 2: Adding two to user input
 
@@ -33,7 +33,7 @@ x = int(input('Pick a number, any number! '))
 print('The value of x + 2 is:', x + 2)
 ```
 
-![part2.png](assets/part2.png)
+![part2.png](assets/e1-part2.png)
 
 ### Part 3: Converting dog years to human years
 
@@ -54,7 +54,7 @@ human_age = (dog_age * 7)
 print('Age in human years:', human_age)
 ```
 
-![part3.png](assets/part3.png)
+![part3.png](assets/e1-part3.png)
 
 ### Extra credit: Zen of Python
 
@@ -66,7 +66,7 @@ What is your favorite line from the Zen of Python?
 import this
 ```
 
-![ec.png](assets/ec.png)
+![ec.png](assets/e1-ec.png)
 
 My favorite line is:
 
