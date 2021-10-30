@@ -1,6 +1,6 @@
-# Week 8
+# Week 9
 
-*October 12, 2021 – October 18, 2021*
+*October 19, 2021 – October 25, 2021*
 
 ## In-Class Exercise 9
 
