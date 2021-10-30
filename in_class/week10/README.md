@@ -2,7 +2,7 @@
 
 *October 26, 2021 – November 1, 2021*
 
-## In-Class Exercise 11
+## 🏔 In-Class Exercise 11
 
 ### Part 1: Mad Libs
 

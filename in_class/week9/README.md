@@ -2,7 +2,7 @@
 
 *October 19, 2021 – October 25, 2021*
 
-## In-Class Exercise 9
+## 👨‍👩‍👧‍👦 In-Class Exercise 9
 
 ### Part 1: Number of Kids
 
@@ -86,7 +86,7 @@ write_file.close()
 
 ![part2.png](assets/e9-part2.png)
 
-## In-Class Exercise 10
+## 🏦 In-Class Exercise 10
 
 ### ATM Program
 
