@@ -17,7 +17,7 @@ patients = [['Milos', 'Jones', 48, 'male', 'smoker', 210],
 
 Each sub-list contains a hospital patient's first name, last name, age, gender, whether they are a smoker, and weight as elements.
 
-Write a Python program `patients.py`, **where you iterate through the list of lists `patients` and append the *last name* of all *female* patients to a new list `female_patients` and display `female_patients`.
+Write a Python program `patients.py`, where you iterate through the list of lists `patients` and append the *last name* of all *female* patients to a new list `female_patients` and display `female_patients`.
 
 **Please do this with one for loop.**
 
@@ -51,7 +51,7 @@ heart_rates = [[72, 75, 71, 73],  # resting
 
 Each element of the sublists is the heart rate of a patient. Each sub-list contains heart rates of patients after resting, walking, running, and a minute after recovery. Not all sub-lists are of the same length.
 
-Write a Python program `hr.py` **where you iterate through the list of lists `hr` and calculate the average of each sub-list. Append the average of each sub-list to a new list as you iterate through `hr`. Print this list of average heart rates at the end.
+Write a Python program `hr.py` where you iterate through the list of lists `hr` and calculate the average of each sub-list. Append the average of each sub-list to a new list as you iterate through `hr`. Print this list of average heart rates at the end.
 
 **You will need to use a nested for loop.**
 
